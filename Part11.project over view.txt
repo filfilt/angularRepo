@@ -1,0 +1,9 @@
+part11.
+------------/----
+*Angular Basics
+*Data Binding
+*Event Binding
+* Templates
+* Directives
+*Pipes
+*Routing
