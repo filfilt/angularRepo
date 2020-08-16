@@ -1,0 +1,13 @@
+Part9:Plugins
+========
+-Add Angular project extension:
+-Angular V6 Snippets
+-Angular Language Service
+-Angular2-switcher
+-Auto Rename tag
+-Bracket Pair colorizer
+-Debugger for chrome to debug with chrome
+-Material Icon Theme
+-Path intellisense
+-Prettier-Code formatter
+-tslint
