@@ -1,0 +1,4 @@
+
+Vs code editor: 
+Link: https://code.visualstudio.com/
+To open again: open Vs code fron our folder
