@@ -1,0 +1,14 @@
+	PART4: CREATING THE FIRST ANGULAR APP
+         --------------/-------------------
+- AngulariS is based on the model view controller, whereas Angular
+2 is based on the components structure. Angular 4 works on the
+same structure as Angular2 but is faster when compared to
+Angular2.
+
+- Angular4 uses TypeScript 2.2 version whereas Angular 2 uses
+Typescript version 1.8. This brings a lot of difference in the
+performance.
+
+- To install Angular 4, the Angular team came up with Angular CLI
+which eases the installation. You need to run through a few
+commands to install Angular 4.
