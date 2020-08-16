@@ -1,0 +1,8 @@
+    ANGULAR
+    ----/---
+- Introduction
+- What is Angular
+- Setting Up the Development Environment
+- Creating the First Angular App
+- Structure of Angular Projects
+- Visual Code Editor Plugin
