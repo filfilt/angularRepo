@@ -1,0 +1,11 @@
+PART2: SETTING UP ENVIRONMENT
+----------/-----------
+In this chapter, we will discuss the Environment Setup
+required for Angular 4. To install Angular 4, we require
+the following -
+	- Nodejs
+	- Npm
+	- Angular CLI
+	- IDE for writing your code
+
+=========================//============================

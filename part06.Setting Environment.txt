@@ -13,4 +13,6 @@
 		to go the new folder: -> cd new folder name then
 =>ng new "my-dream-app"
 =>cd "my-dream-app" to be there
+	to run: ng serve
+	to stop: Ctr +C
 	
