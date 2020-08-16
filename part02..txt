@@ -16,5 +16,7 @@ the following -
 =>Dirrectory:   to go back one step -> cd ..
 		to go back whole steps -> cd\
 		to create new folder: -> mkdir folder name
+		to go the new folder: -> cd new folder name then
 =>ng new "my-dream-app"
+=>cd "my-dream-app" to be there
 =========================//============================

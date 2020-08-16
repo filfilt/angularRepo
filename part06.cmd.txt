@@ -1,0 +1,16 @@
+
+	PART6: SETTING INVIRONMENT
+         -----------//--------
+1.Nodejs:
+	https://nodejs.org/en/
+	then check: " nodejs -v " from cmd
+2.Angular CLI:
+	go to " cli.angular.io ": " npm install -g @angular/cli "
+	then check: ng version  from cmd
+=>Dirrectory:   to go back one step -> cd ..
+		to go back whole steps -> cd\
+		to create new folder: -> mkdir folder name
+		to go the new folder: -> cd new folder name then
+=>ng new "my-dream-app"
+=>cd "my-dream-app" to be there
+	
