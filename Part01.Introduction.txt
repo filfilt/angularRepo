@@ -1,4 +1,4 @@
-    ANGULAR
+ PART1:ANGULAR (SPA)
     ----/---
 - Introduction
 - What is Angular
@@ -6,3 +6,45 @@
 - Creating the First Angular App
 - Structure of Angular Projects
 - Visual Code Editor Plugin
+=========//===============
+PART2: WHAT IS AGGULAR
+----------/-----------
+What is Angular?
+Angular 4 is a .JavaScnpt framework for building web applications and apps in
+Javascript, html, and Typescript, which is a superset of JavaScript. Angular
+provides builtin features for animation, http service, and materials which in turn
+has features such as auto-complete, navigation, toolbar, menus, etc. The code Is
+written In TypeScript, which compiles to JavaScript and displays the same In the
+browser.
+
+SETTING UP ENVIRONMENT
+---------/----------
+In this chapter, we will discuss the Environment Setup
+required for Angular 4. To install Angular 4, we require
+the following -
+	- Nodejs
+	- Npm
+	- Angular CLI
+	- IDE for writing your code
+1.Nodejs:
+	https://nodejs.org/en/
+	then check: " nodejs -v " from cmd
+2.Angular CLI:
+	go to cli.angular.io:" npm install -g @angular/cli "
+	then check: ng version  from cmd
+=>Dirrectory:   to go back one step -> cd ..
+		to go back whole steps -> cd\
+		to create new folder: -> mkdir folder name
+=>ng new "my-dream-app"
+=========================//============================
+
+	PART3:WEBSITES
+       ------/--------
+	1.Static:  without interacting
+	2.Dinamic: within interacting, can login and working inside
+   Angular: JavaScripte framework
+	    uses typeScript language
+	    Used to create SPA
+            
+
+
