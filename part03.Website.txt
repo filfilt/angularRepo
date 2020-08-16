@@ -1,0 +1,7 @@
+PART3:TYPES WEBSITES
+       ------/--------
+	1.Static:  without interacting
+	2.Dinamic: within interacting, can login and working inside
+   Angular: JavaScripte framework
+	    uses typeScript language
+	    Used to create SPA
