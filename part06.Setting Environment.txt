@@ -3,15 +3,20 @@
          -----------//--------
 1.Nodejs:
 	https://nodejs.org/en/
-	then check: " nodejs -v " from cmd
+	then check: " node -v " from cmd
 2.Angular CLI:
 	go to " cli.angular.io ": " npm install -g @angular/cli "
+	-------------------------/------------------------
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see http://angular.io/analytics. (y/N)
+	----------------------/---------------------------
 	then check: ng version  from cmd
 =>Dirrectory:   to go back one step -> cd ..
 		to go back whole steps -> cd\
 		to create new folder: -> mkdir folder name
 		to go the new folder: -> cd new folder name then
-=>ng new "my-dream-app"
+=>ng new "my-dream-app"=>No =>CSS
 =>cd "my-dream-app" to be there
 	to run: ng serve
 	to stop: Ctr +C
