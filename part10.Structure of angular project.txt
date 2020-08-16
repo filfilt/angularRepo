@@ -1,0 +1,62 @@
+Part10.Structure of angular project
+  ------------//-----------------
+1. node_mudules:
+	the container of tools
+2. angular.json:
+	- contains all file in angularjs
+	- tells us the project source
+	- to put any global style sheet
+	- to put Scripts
+	- show sthe prefix "app"
+3.Pachage.json:contain and package related files eg: if we add bootStrap
+  - contains defined commands
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  - contain verssions
+  - contain dependances
+4. Src:
+4.1.app:
+	- components
+4.2. Asset:
+	- images
+	- video or audeo
+	- CSS files
+4.3.Environments:
+	- connection str
+   *environment.prod.ts:
+	-production connection
+	- apiUrl: " "
+   *environment.ts:
+	-local connection
+	- spesify url
+5.favicon.ico:
+	- contain favicon. if we want 
+6. index.html:
+	- impo. page
+	-  <app-root></app-root>
+7.app:
+	- app.component.css:
+	- app.component.html:
+		- cancel premade code init
+		- then create our owen code 
+	- app.component.ts:
+		- selector: 'app-root', look it from index.html
+	- app.component.spec.ts:
+	- app.modules.ts:
+there connection: 
+	- index.html
+	- /../.component.html
+	- /../.modules.ts are connected each ather
+=>To give our owen component: right click on "app"->
+* Generate component:
+	right click on app->Generate component->give Name
+
+	
+	
+	
