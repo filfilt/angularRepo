@@ -1,0 +1,20 @@
+PART2: SETTING UP ENVIRONMENT
+----------/-----------
+In this chapter, we will discuss the Environment Setup
+required for Angular 4. To install Angular 4, we require
+the following -
+	- Nodejs
+	- Npm
+	- Angular CLI
+	- IDE for writing your code
+1.Nodejs:
+	https://nodejs.org/en/
+	then check: " nodejs -v " from cmd
+2.Angular CLI:
+	go to cli.angular.io:" npm install -g @angular/cli "
+	then check: ng version  from cmd
+=>Dirrectory:   to go back one step -> cd ..
+		to go back whole steps -> cd\
+		to create new folder: -> mkdir folder name
+=>ng new "my-dream-app"
+=========================//============================
