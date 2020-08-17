@@ -1,0 +1,19 @@
+modify nav
+---/---
+- cancel or comment drop down top links
+- cancel or comment button
+- cancel or comment blog
+- chnge bootswatch by our one name
+- put &#174; net to our new word  look "copright html code "
+
+Our nav:
+----/--
+<li class="nav-item">
+            <a class="nav-link" href="../home/">Home</a> =>Student=>Course=>Grade
+          </li>
+*Search:Add at the bottom
+	 <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+          <input type ="text" class="form-control" placeholde="Search..">
+          </li>
+        </ul>
