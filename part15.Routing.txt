@@ -68,3 +68,11 @@ under app.component.html add
 ---------------------
 under home>app.component.html:
 	- <app-nav></app-nav>   instead of   <p>home works!</p>
+
+-------------------------------/---------------------------
+
+=>later-Chenge to: 
+- <li class="nav-item">
+   <a class="nav-link"
+   <a class="nav-link" [routerLink]="[{ outlets: {'studertMain': ['home'] } }]">Home</a>    =>Student=>Course=>Grade
+   </li> 
