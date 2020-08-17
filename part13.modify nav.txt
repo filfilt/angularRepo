@@ -8,7 +8,12 @@ modify nav
 
 Our nav:
 ----/--
-<li class="nav-item">
+- <li class="nav-item">
+   <a class="nav-link"
+   [routerLink]="[{ outlets: {'studertMain': ['home'] } }]">Home</a>
+   </li> 
+
+- <li class="nav-item">
             <a class="nav-link" href="../home/">Home</a> =>Student=>Course=>Grade
           </li>
 *Search:Add at the bottom

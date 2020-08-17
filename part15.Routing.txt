@@ -1,0 +1,70 @@
+Part15.Routing:
+--------------
+**router:
+*First:    npm install --save @angular/router
+
+- Open App_Modules and include
+import { routing ) from '.Iapp.routing';
+
+**app.routing.ts : under app
+- Create app.routing.ts file under app folder
+- Go to Appniodule.html and place
+<router-outlet></router-outlet>
+- Go to nav and add
+<div class="container">
+<router-outlet name="studentMain">
+</router-outlet>
+</div>
+* Go to nay and change
+*<a class="nav-link" [routerUnk]="[{ outlets: { 'studentMain': ['home'] ) }]“>Homeqa>
+Run
+------------/---------------
+under "app.routing.ts": we put
+   ==========
+import { CourseComponent } from './course/course.component';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';
+import { StudentComponent } from './student/student.component';
+import { GradeComponent} from './grade/grade.component';
+
+export const routing = RouterModule.forRoot([
+    {
+    path: 'home',
+    component: HomeComponent,
+    children: [{
+    path: 'student',
+    component: StudentComponent,
+    outlet: 'StudentMain'
+    },
+    {
+    path: 'grade',
+    component: GradeComponent,
+    outlet: 'StudentMain'
+    },
+    {
+    path: 'course',
+    component: CourseComponent,
+    outlet: 'StudentMain'
+    }]
+    },
+    {path: '**', redirectTo: 'home', pathMatch: 'Full'}
+    ]);
+----------------//-----------------
+Import RoutingModule by using bulp sign  by using the same method
+Import home , student , grade , course
+
+under app.module : add
+- import {routing} from './app.routing';
+- routing
+under app.component.html add
+- <router-outlet></router-outlet>  
+-> instead of 
+--------------------------
+<app-nav></app-nav>
+<h1>
+  Welcome to {{title}}
+</h1>
+---------------------
+under home>app.component.html:
+	- <app-nav></app-nav>   instead of   <p>home works!</p>
