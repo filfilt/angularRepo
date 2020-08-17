@@ -1,0 +1,7 @@
+part14.add component
+---------/-----------
+Create:from terminal
+	- ng g c home
+	- ng g c student
+	- ng g c course
+	- ng g c grade
