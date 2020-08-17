@@ -1,9 +1,0 @@
-part11.project over view
-------------/----
-*Angular Basics
-*Data Binding
-*Event Binding
-*Templates
-*Directives
-*Pipes
-*Routing

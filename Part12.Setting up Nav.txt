@@ -1,0 +1,20 @@
+part12.Setting up Nav
+------------/----
+- Creating Menu
+	*Create Nav:=>ng g c Nav
+	*take: app-nav From nav.component.ts and add to app.component.html like <app-nav></app-nav>
+	* go to :use bootswatch.com -> open united ->right click on the page ->inpect element ->click  "Select an element"
+	  ->click nav bar ->copy selected part at the bottom->paste it at the place of "<app-nav></app-nav>"
+	=>install bootswatch:" npm install -g bootswatch "  from terminal =>its destination is node.modules
+	*@import '../node_modules/bootswatch/dist/united/bootstrap.min.css';         to styles
+	=>install bootstrap font-awesome:" npm install bootstrap font-awesome jquery --save "
+        Add:
+	@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+	@import '../node_modules/font-awesome/css/font-awesome.min.css';
+ =>To cancel overlap: cancel/*fixed-top*/ from nav html
+
+- Change Look and Feel
+- Adding Bootstrap
+- Adding Font Awesome
+- Adding components
+- Routing
