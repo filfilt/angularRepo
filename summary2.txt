@@ -1,0 +1,36 @@
+Steps:
+	node -v
+	npm install -g @angular/cli
+	ng new Proj
+	ng serve
+	    //selecter app.ts to app.html
+	ng g c nav
+	nav ts selecter to app.html 
+	------------------/--------------
+	<div style="text-align: center;">
+ 	 <app-nav></app-nav>
+ 	 <h1>My First SMS Project</h1>
+	</div>
+	-----------------/--------------
+	-put: " <app-nav></app-nav> " in  index.html   to
+	-  navComponent  into app.module
+	-----------------------
+	bootswatch.com ->nav.html
+
+	npm install bootswatch                             ->import dist/united to style
+	npm install bootstrap font-awesome jquery --save   ->import
+		for bootstrap->dist/css
+		for font-awesome->css
+--------------------------/--------------------------
+
+NB:
+------------------/---------
+<li class="nav-item">
+<a class="nav-link" href="../help/">Home</a>
+</li>
+------------------/------------
+<li class="nav-item">
+            <a class="nav-link" 
+            [routerLink]="[{ outlets: {'studertMain': ['home'] } }]">Home</a>
+            </li>
+------------------/----------

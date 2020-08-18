@@ -71,7 +71,7 @@ under home>app.component.html:
 
 -------------------------------/---------------------------
 
-=>later-Chenge to: 
+=>later-Change to: 
 - <li class="nav-item">
    <a class="nav-link"
    <a class="nav-link" [routerLink]="[{ outlets: {'studertMain': ['home'] } }]">Home</a>    =>Student=>Course=>Grade
