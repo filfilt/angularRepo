@@ -1,22 +1,31 @@
 Summary
 - download:nodejs => node -v
-- cli.angular.io: npm install -g @angular/cli  =>ng version
+- cli.angular.io:     npm install -g @angular/cli     =>ng version
 - Create new folder in C\: eg- myAngular
-- Create Project in "myAngular": eg- ng new myWebsite
-- ng serve
+- Create Project in "myAngular": eg- ng new myWebsite / ng new myWebsite 
+-angular routing - Y/N -Y
+-CSS
+-cd myWebsite
+- ng add @angular/material ->y ->y
+-ng serve
+-N/Y -Y
 --------------------/--------------------
--selecter in compo.ts put into app.compo.html  and compo of that selector app.modu.st
--nav under app ->(ng g c nav)
--put its selector under ts to app.html
+-selecter in app.compo.ts put into app.compo.html  and compo of that selector app.modu.st
+-Create: nav under app ->(ng g c nav)
+-put its selector under nav.ts to app.html
+-goto: angular material(api)--& paste app.module.ts
+	angular material(overview)--& paste app.comp.html
 -----------------/----------------------------
-- paste bootswatch temolate From bootswatch.com and the paste it to nav.html
-- install: npm install bootswatch
+- take bootswatch template From bootswatch.com and the paste it to nav.html
+=> install: npm install bootswatch
 *Add:
 - @import '../node_modules/bootswatch/dist/united/bootstrap.min.css';         to styles
-- install: npm install bootstrap font-awesome jquery --save
+
+=> install: npm install bootstrap font-awesome jquery --save
 *&Add:
 -@import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
 -@import '../node_modules/font-awesome/css/font-awesome.min.css';       to styles
+
 -Delete: " fixed-top "  from nav.html
 
 *Library:
@@ -29,28 +38,37 @@ Summary
             </li>
         </ul>
 **Component: Add them
-	-ng g c home
-	-ng g c student
-	-ng g c grade
-	-ng g c coures
+	-ng g c home 
+	-ng g c student 
+	-ng g c grade 
+	-ng g c coures 
 **Routing:
-	npm install --save @angular/router
+	npm install  --save @angular/router  
 **app.routing:
-	app.routing.js    under qpp
+	app.routing.js    under app
 	----------------/----------------
 **Add:
+
 
 export const routing = RouterModule.forRoot([
     {
     path: 'home',
     component: HomeComponent,
-    children: [
-   {
+    children: [{
     path: 'student',
     component: StudentComponent,
     outlet: 'StudentMain'
     },
-    ]
+    {
+    path: 'grade',
+    component: GradeComponent,
+    outlet: 'StudentMain'
+    },
+    {
+    path: 'course',
+    component: CourseComponent,
+    outlet: 'StudentMain'
+    }]
     },
     {path: '**', redirectTo: 'home', pathMatch: 'full'}
     ]);
@@ -58,6 +76,7 @@ export const routing = RouterModule.forRoot([
 ----------------/--------------------
 Import RoutingModule by using bulp sign  by using the same method
 Import home , student , grade , course
+---------------------/---------------------
 
 under app.module : add
 - import {routing} from './app.routing';

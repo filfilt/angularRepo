@@ -15,8 +15,8 @@ import { routing ) from '.Iapp.routing';
 <router-outlet name="studentMain">
 </router-outlet>
 </div>
-* Go to nay and change
-*<a class="nav-link" [routerUnk]="[{ outlets: { 'studentMain': ['home'] ) }]“>Homeqa>
+* Go to naV and change
+*<a class="nav-link" [routerLink]="[{ outlets: { 'studentMain': ['home'] ) }]">Home</a>
 Run
 ------------/---------------
 under "app.routing.ts": we put
@@ -48,7 +48,7 @@ export const routing = RouterModule.forRoot([
     outlet: 'StudentMain'
     }]
     },
-    {path: '**', redirectTo: 'home', pathMatch: 'Full'}
+    {path: '**', redirectTo: 'home', pathMatch: 'full'}
     ]);
 ----------------//-----------------
 Import RoutingModule by using bulp sign  by using the same method
